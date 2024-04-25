@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar Page</title>
+    <link rel="stylesheet" href="../CSS/Navbar.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav" aria-label="Main Navigation">
+            <a href="#" class="logo-link">
+                <img src="/IMG/EOT-LOGO1.webp" alt="Eduontech Logo" class="logo">
+            </a>
+
+            <ul class="nav-bar">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: #00d0ff;">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">About Us <img src="../IMG/arrow.png" alt="Arrow"></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">About Eduontech</a></li>
+                        <li><a href="#">Our Employee</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Courses <img src="../IMG/arrow.png" alt="Arrow"></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">10th Class</a></li>
+                        <li><a href="#">12th Class</a></li>
+                        <li><a href="#">Undergraduate</a></li>
+                        <li><a href="#">Postgraduate</a></li>
+                        <li><a href="#">Certified Program</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Universities <img src="../IMG/arrow.png" alt="Arrow"></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">AMITY University</a></li>
+                        <li><a href="#">Hindustan University</a></li>
+                        <li><a href="#">JAIN University</a></li>
+                        <li><a href="#">Lovely Professional University</a></li>
+                        <li><a href="#">Manav Rachna Online</a></li>
+                        <li><a href="#">Manipal Online</a></li>
+                        <li><a href="#">MM University</a></li>
+                        <li><a href="#">UPES Centre for Continuing</a></li>
+                        <li><a href="#">Uttaranchal University</a></li>
+                        <li><a href="#">GLA University</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+
+            <button class="btn" type="button" style="background-color: #00d0ff;">INQUIRY</button>
+        </nav>
+    </header>
+
+    <!-- Carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="../IMG/1.webp" class="d-block w-100" alt="Carousel Image 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="../IMG/2.webp" class="d-block w-100" alt="Carousel Image 2">
+            </div>
+            <div class="carousel-item"data-bs-interval="1000">
+                <img src="../IMG/4.webp" class="d-block w-100" alt="Carousel Image 3">
+            </div>
+            <div class="carousel-item"data-bs-interval="1000">
+                <img src="../IMG/Find-The-Best1.webp" class="d-block w-100" alt="Carousel Image 4">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
