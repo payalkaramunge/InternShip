@@ -1,11 +1,57 @@
+/* social media header */
+.header1
+{
+  display: flex;
+}
+
+.header1 .liheader1
+{
+  display: flex;
+  width: 50px;
+}
+
+/* .header1 .liheader1 .nav-link1
+{
+  justify-content: space-around;
+} */
+
+.header1 .liheader1 img
+{
+  width: 30px;
+}
+
+.header1 .liheader2
+{
+  display: flex;
+  margin-left: 60%;
+}
+
+/* .header1 .liheader1 .nav-link2
+{
+  justify-content: space-around;
+} */
+
+.header1 .liheader2 img
+{
+  width: 130%;
+}
+
+/* logo */
 .logo
 {
     width: 130px;
 }
 
+/* main header */
+header
+{
+    background-color: white;
+    margin-left: 12%;
+    margin-top: 10px;
+}
 .nav
 {
-    display: flex;
+    /* display: flex; */
     font-family: Sans-serif;
     /* font-weight: 5000; */
     
@@ -13,11 +59,12 @@
 .nav-bar
 {
     display: flex;
+    margin-top: 20px;
 }
 .nav-bar li 
 {
     list-style: none;
-    margin: 20px;
+    /* margin: 20px; */
     text-decoration: none;
     font: bold;
     
@@ -27,9 +74,7 @@
     text-decoration: none;
     color: black;
 }
-li .nav-item{
-    
-}
+
 .btn
 {
     margin-left: 5%;
@@ -42,11 +87,7 @@ li .nav-item{
     border: none;
     font: bold;
 }
-header
-{
-    background-color: white;
-    margin-left: 12%;
-}
+
 
 /* dropdown css */
 
@@ -83,3 +124,39 @@ header
     color: #00d0ff;
   }
   
+/* card */
+
+.service{
+    flex-wrap: nowrap;
+    display: flex;
+  }
+
+  .service .card{
+    padding: 0px ;
+    width: 300px;
+    box-shadow: 10px 10px 5px 0px rgba(199, 196, 196, 0.75);
+    display: flex;
+    flex-direction: row;
+/* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+
+  
+  }
+
+  .service .card .card-body
+  {
+    padding-left: 50px;
+  }
+
+.crd-img
+{
+    width: 100px;
+    padding-left: 20px;
+}
+
+
+.service .card .card-title
+{
+    font-weight: 1000;
+    color: #00d0ff;
+}
