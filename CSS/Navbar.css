@@ -277,13 +277,14 @@ header
 .h-4
 {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 10px; 
   font-weight: 900px;
   font-size: 30px;
 }
-.main-1-container-2-1
+.main-1-container-1
 {
-  margin-top: 40px;
+  margin-top: 40px !;
+  padding-left: 80px !important;
 }
 
 .btn-1
@@ -291,5 +292,22 @@ header
   margin-top: 10px;
   padding: 11px;
   width: 261px;
-  border: 3px solid black;
+  border: 2px solid #625ecd;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container  .small-cards {
+  width: 17%;
+  height: 154px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  
 }
