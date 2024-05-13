@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: "poppins",sans-serif;
+}
+root:{
+
+}
 /* social media header */
 .header1
 {
@@ -257,33 +265,43 @@ header
 
 .course-section
 {
-  height: 800px;
+  
+  height: 2000px;
   /* background-color: black; */
-  background-color: #00d0ff;
-  background-size:contain;
+  background-color: #d9faff;
+  background-image: url(../IMG/Flexi4A.png) ;
+ 
   opacity: .8;
 
   background-attachment: fixed;
-  background-image: url(../IMG/backgraound\ img\ sec-4.png) ;
-  z-index: -999;
+  
+  /* z-index: -999; */
+  background-repeat:no-repeat ;
+  margin-top: 50px !important;
+}
+.main-1
+{
+  margin-top: 150px !important;
 }
 
 .h-3
 {
   text-align: center;
-  font-weight: 900px;
   color: #00d0ff;
+  font-weight: 700;
+  padding-bottom: 20px;
 }
 .h-4
 {
   text-align: center;
-  padding-top: 10px; 
-  font-weight: 900px;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 40px;
 }
+
 .main-1-container-1
 {
-  margin-top: 40px !;
+  margin-top: 40px ;
   padding-left: 80px !important;
 }
 
@@ -303,11 +321,101 @@ header
   width: 17%;
   height: 154px;
   margin: 10px;
+  background-color: #fff;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-top: 15px;
+  box-shadow:  0px 5px 15px rgba(0, 0, 0, 0.35);
+  margin-top: 20px;
   border-radius: 10px;
-  
+  z-index: -1;
+  margin-bottom: 20px;
+  gap: 10px;
+
+position: relative;
+
+}
+
+.img-circle
+{
+  border: 1px solid black;
+ /* padding-left: 30px;
+ padding-right: 30px; */
+ margin-top: 20px;
+ width: 50px;
+ height: 50px;
+ border-radius: 100px;
+ padding-top: inherit;
+ background-color: #005792;
+}
+.small-cards-img
+{
+  padding-bottom: 34px;
+}
+
+.small-card-1
+{
+  border: 1px solid black;
+  height: 28px;
+  width: 53px;
+  background-color: #00204a;
+  font-size: 17px;
+  border-radius: 6px;
+  padding-right: 4px;
+  position: absolute;
+  left: 137px;
+  top: -4px;
+}
+
+.year
+{
+  color: white;
+  padding-top: 4px;
+  padding-left: 1px;
+}
+
+
+/* section 5 */
+.h-5
+{
+  text-align: center;
+  color: #00d0ff;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.h-6
+{
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.uni-card
+{
+  width: 23% !important;
+  padding: 0 !important;
+  height: 325px !important;
+  border-radius: 10px;
+  box-shadow:  0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+.uni-card-img
+{
+
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+.card-title
+{
+  text-align: center !important;
+  font-weight: 500 !important;
+  color: #000000 !important;
+  margin: 0px !important;
+  position: absolute !important;
+  font-weight: 500;
+  color: #000000;
+  position: absolute;
+  /* left: 83px !important; */
+  /* bottom: 49px !important; */
 }
