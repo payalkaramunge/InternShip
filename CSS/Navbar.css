@@ -378,17 +378,19 @@ position: relative;
 /* section 5 */
 .h-5
 {
-  text-align: center;
-  color: #00d0ff;
+  text-align: left;
+  color: #545454;
   font-weight: 700;
-  padding-bottom: 20px;
+  font-size: 25px;
+  padding-top: 20px;
 }
 .h-6
 {
-  text-align: center;
+  text-align: left;
+  color: #545454;
   font-weight: 700;
-  font-size: 40px;
-  padding-bottom: 40px;
+  font-size: 25px;
+  padding-top: 20px;
 }
 
 .uni-card
