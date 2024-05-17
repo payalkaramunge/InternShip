@@ -3,9 +3,10 @@
 *{
   font-family: "poppins",sans-serif;
 }
-root:{
+/* root:{
 
-}
+
+} */
 /* social media header */
 .header1
 {
@@ -163,7 +164,7 @@ header
 
   
   }
-
+/* 
   .service .card .card-body
   {
     padding-left: 50px;
@@ -171,16 +172,27 @@ header
 
 .crd-img
 {
-    width: 100px;
-    padding-left: 20px;
+    width: 100px !important;
+    padding-left: 20px !important;
+} */
+
+.card-title1
+{
+  padding-top: 5px !important;
+ 
+}
+.card-title{
+  padding-top: 4px !important;
+  font-size: xx-large !important;
+  color: #00d0ff !important;
+  font-weight: 100px !important;
 }
 
-
-.service .card .card-title
+/* .service .card .card-title
 {
     font-weight: 1000;
     color: #00d0ff;
-}
+} */
 
 /* section 3 pictures and para */
 
@@ -352,6 +364,10 @@ position: relative;
 {
   padding-bottom: 34px;
 }
+.small-cards-title
+{
+  text-decoration: none !important;
+}
 
 .small-card-1
 {
@@ -374,24 +390,28 @@ position: relative;
   padding-left: 1px;
 }
 
+.col-sm-12 .h5
+{
+  color: #656565;
+}
+
 
 /* section 5 */
-.h-5
-{
-  text-align: left;
-  color: #545454;
-  font-weight: 700;
-  font-size: 25px;
-  padding-top: 20px;
-}
 .h-6
 {
-  text-align: left;
-  color: #545454;
+  text-align: center;
+  color: #00d0ff;
   font-weight: 700;
-  font-size: 25px;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
+.h-7
+{
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
 
 .uni-card
 {
@@ -408,16 +428,15 @@ position: relative;
   height: 200px;
   width: 100%;
 }
-.card-title
+.uni-card-title
 {
   text-align: center !important;
   font-weight: 500 !important;
   color: #000000 !important;
   margin: 0px !important;
-  position: absolute !important;
+  position: relative !important;
   font-weight: 500;
-  color: #000000;
-  position: absolute;
-  /* left: 83px !important; */
-  /* bottom: 49px !important; */
+  text-align: center !important;
+  padding-top: 40px;
+ 
 }
