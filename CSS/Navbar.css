@@ -431,6 +431,15 @@ position: relative;
   height: 200px;
   width: 100%;
 }
+.university-image{
+  /* width: inherit; */
+  height: 200px;
+  /* transform: scale(1.2) translateY(8%); */
+  background-size: cover;
+  background-position: 50%;
+  z-index: 1;
+  border-radius: 10px;
+}
 .uni-card-title
 {
   text-align: center !important;
@@ -457,7 +466,7 @@ position: relative;
 {
   
   height: 100vh;
-  background-image: url(../IMG/Flexi4A.png) ;
+  background-image: url(../IMG/backgraound\ img\ sec-4.png) ;
   opacity: .1;
   background-attachment: fixed;
   background-repeat:no-repeat ;
@@ -500,7 +509,7 @@ position: relative;
     position: relative;
     text-align: center;
     color: white;
-    background-image: url(../IMG/Flexi4A.png) ;
+    background-image: url(../IMG/backgraound\ img\ sec-4.png) ;
 
 }
 .centered {
@@ -536,7 +545,7 @@ position: relative;
   color: #00d0ff;
   font-weight: 700;
   padding-bottom: 20px;
-  padding-right: 310px;
+  padding-right: 390px;
 }
 .h-9
 {
@@ -544,7 +553,7 @@ position: relative;
   font-weight: 700;
   font-size: 40px;
   padding-bottom: 40px;
-  padding-left: 100px;
+  padding-left: 0px;
 }
 
 .box-text-1 h3
@@ -552,8 +561,14 @@ position: relative;
   /* float: left; */
 }
 
+.main-2-container-1
+{
+  width: 900px;
+  padding-top: 50px;
+}
+
 .main-2-sub-container-1{
-  width: 50%;
+  width: 80%;
   text-align: start;
 }
 
@@ -586,12 +601,9 @@ position: relative;
   font-weight: 600;
   line-height: 0.5em;
   font-size: 25px;
-  margin-left:20%;
-  
-  /* text-align: center; */
-  /* margin-right: 12rem; */
-  /* width: 40%; */
-  
+  margin-left:8%;
+  padding-left: 150px;
+  padding-bottom: 20px !important;
 }
 
 .box-text-1 p{
@@ -611,4 +623,6 @@ position: relative;
   /* padding-left: 85px; */
   padding-top: 10px;
   /* margin-left: 4rem; */
+  font-weight: lighter !important;
+  padding-left: 30px;
 }
