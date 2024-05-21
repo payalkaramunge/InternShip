@@ -281,7 +281,7 @@ header
   height: 2000px;
   /* background-color: black; */
   background-color: #d9faff;
-  background-image: url(../IMG/Flexi4A.png) ;
+  background-image: url(../IMG/backgraound\ img\ sec-4.png) ;
  
   opacity: .8;
 
@@ -440,6 +440,24 @@ position: relative;
   z-index: 1;
   border-radius: 10px;
 }
+
+.university-image{
+  will-change: transform;
+  
+  transition: transform 450 ms;
+
+}
+.university-image:hover,
+.university-image:focus{
+
+  transition:transform 125ms;
+  transform:translateY(-10px);
+  transition:all.4s;
+  
+
+}
+
+
 .uni-card-title
 {
   text-align: center !important;
@@ -455,40 +473,51 @@ position: relative;
 
 /* section 6 */
 
+
 .box-color
 {
   background-color: #00204A;
   width: 100%;
+  opacity: .9;
   height: 271px;
 }
 
-.course-section1
+.course-section-1
 {
   
   height: 100vh;
-  background-image: url(../IMG/backgraound\ img\ sec-4.png) ;
-  opacity: .1;
+  background-image: url('../IMG/backgraound\ img\ sec-4.png') ;
+  background-color: #000000;
+  opacity: .9;
   background-attachment: fixed;
   background-repeat:no-repeat ;
   margin-top: 50px !important;
+  width: 100%;
+  height: 271px;
+}
+
+.box-container
+{
+  padding-top: 40px;
 }
 
 
-.box-container .box-text
+.box-container .box-text 
 {
+  
   color: white;
   font-size: 21px;
   position: relative;
   font-weight: 600;
+  
 }
 .box-para
 {
-  color: rgb(255, 255, 255);
-  text-align: justify;
-  z-index: 100;
-  text-align: start;
+  color: white;
   font-size: 13px;
-    font-weight: 400;
+  position: relative;
+  font-weight: 400;
+  text-align: start; padding-left: 75px;
 }
 
 .ak{position: fixed;
@@ -556,11 +585,6 @@ position: relative;
   padding-left: 0px;
 }
 
-.box-text-1 h3
-{
-  /* float: left; */
-}
-
 .main-2-container-1
 {
   width: 900px;
@@ -625,4 +649,272 @@ position: relative;
   /* margin-left: 4rem; */
   font-weight: lighter !important;
   padding-left: 30px;
+}
+
+/* section 8 */
+.sec-8
+{
+  margin-top: 100px;
+}
+.course-section-2
+{
+  
+  height: 1500px;
+  /* background-color: black; */
+  background-color: #d9faff;
+  background-image: url(../IMG/backgraound\ img\ sec-4.png) ;
+ 
+  opacity: .8;
+
+  background-attachment: fixed;
+  margin-top: 150px;
+  
+  /* z-index: -999; */
+  background-repeat:no-repeat ;
+  padding-top: 100px;
+}
+.section-8
+{
+  width: 1519px;
+  height: 925px;
+  padding-top: 100px;
+  background-color: hotpink;
+}
+.section-8-1{
+  width: 1519px;
+  height: 925px;
+}
+.main-5
+{
+  width: 1279px;
+  height: 725px;
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: #3e8e41;
+  padding: 20px;
+  display: flex;
+}
+
+.sub-main-5-1
+{
+  width: 627px;
+  height: 685px;
+  background-color: red;
+}
+
+.sub-main-5-2
+{
+  width: 627px;
+  height: 685px;
+  background-color: yellow;
+}
+
+.sec-8-img
+{
+  width: 627px;
+  height: 418px;
+  padding-top: 50px;
+}
+.h-12
+{
+  text-align: center;
+  color: #00d0ff;
+  font-weight: 700;
+  padding-bottom: 20px;
+  padding-right: 390px;
+}
+.h-13
+{
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 40px;
+  padding-left: 0px;
+}
+/* section 9 */
+
+.section-9
+{
+  margin-top: 5%;
+}
+.h-10
+{
+  color: #00204A;
+    font-size: 31px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 40px;
+    padding-left: 0px;
+}
+
+.section-9-img
+{
+  vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 74%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+/* section 10 */
+
+.course-section-3
+{
+  
+  background-image: url(../IMG/Start-an-Overseas-Education-Consultancy-1\ bg\ img.jpg);
+  /* opacity: .1; */
+  background-attachment: fixed;
+  background-repeat:no-repeat ;
+  margin-top: 50px !important;
+  width: 100%;
+  height: 287px;
+  /* background-color:  #00204A;
+  opacity: 1.8; */
+  background-position: top;
+  /* background-color: #000000;
+  opacity: 0.5; */
+}
+
+.main-3
+{
+  position: relative;
+  /* box-sizing: border-box; */
+  font-size: 24px;
+  background-color: #000000;
+  opacity: 0.5;
+  width: 100%;
+  height: 287px;
+}
+.sub-main-3
+{
+  padding-left: 189px;
+  padding-right: 189px;
+  display: flex !important;
+  gap: 115px;
+  padding-top: 100px;
+}
+.main-3-1
+{
+  width: 513px;
+  height: 87px;
+  padding: 20px;
+}
+.main-3-2
+{
+  width: 513px;
+  height: 87px;
+  padding: 20px;
+}
+
+.h-11
+{
+  color: #ffffff;
+  font-size: 31px;
+  font-weight: 700;
+  /* margin-left: -280px; */
+}
+
+/* section 11 */
+
+.uni-logo
+{
+  width: 230px !important;
+    height: 130px;
+}
+
+/* section 12 */
+
+.sec-12
+{
+  width: 1519px;
+  height: 569px;
+  background-color: #00204A;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main-4
+{
+  width: 1519px;
+  height: 369px;
+ display: flex;
+  background-color: #00204A;
+}
+
+.main-4-1
+{
+  width: 1140px;
+  height: 369px;
+  margin-left: 189px;
+  margin-right: 189px;
+  background-color: #00204A;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.sub-main-1
+{
+  width: 300px;
+  height: 369px;
+  gap: 40px !important;
+}
+
+.pad-div
+{
+  width: 300px;
+  height: 369px;
+}
+
+
+.sub-main-1-1 img
+{
+width: 260px;
+height: 261px;
+padding: 20px !important;
+}
+
+.sub-main-1-2 img
+{
+  /* padding: 10px; */
+  padding-left: 21px;
+ 
+}
+
+.pad-div-1
+{
+  width: 188px;
+  height: 369px;
+  padding-left: 47px;
+  text-decoration:none ;
+  padding-bottom: 7px !important;
+}
+
+.pad-div-1 ul{
+  list-style-type: none;
+}
+.pad-div-1 ul li a{
+  text-decoration: none !important;
+  color: white;
+
+}
+.pad-div-1 ul li a span
+{
+  padding-bottom: 40px;
+}
+
+.pad-div-2
+{
+  width: 360px;
+  height: 369px;
+  padding-left: 100px;
+  text-decoration: none;
+}
+
+.pad-div-2 ul{
+  list-style-type: none;
 }
