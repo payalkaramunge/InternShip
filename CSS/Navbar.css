@@ -659,7 +659,7 @@ position: relative;
 .course-section-2
 {
   
-  height: 1500px;
+  height: 1030px;
   /* background-color: black; */
   background-color: #d9faff;
   background-image: url(../IMG/backgraound\ img\ sec-4.png) ;
@@ -678,7 +678,7 @@ position: relative;
   width: 1519px;
   height: 925px;
   padding-top: 100px;
-  background-color: hotpink;
+  /* background-color: hotpink; */
 }
 .section-8-1{
   width: 1519px;
@@ -690,7 +690,7 @@ position: relative;
   height: 725px;
   margin-left: 120px;
   margin-right: 120px;
-  background-color: #3e8e41;
+  /* background-color: #3e8e41; */
   padding: 20px;
   display: flex;
 }
@@ -699,14 +699,13 @@ position: relative;
 {
   width: 627px;
   height: 685px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .sub-main-5-2
 {
   width: 627px;
   height: 685px;
-  background-color: yellow;
 }
 
 .sec-8-img
@@ -731,6 +730,44 @@ position: relative;
   padding-bottom: 40px;
   padding-left: 0px;
 }
+.submain-5-img
+{
+  width: 63px;
+  height: 55px;
+  padding: 5px 5px 5px 5px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 4px 4px 4px 4px;
+  font-size: 35px;
+  padding-left: 20px;
+}
+
+.submain-5-1
+{
+  display: flex;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.submain-5-2
+{
+  display: flex;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.submain-5-text-1
+{
+  padding-left: 10px;
+}
+.submain-5-text-2
+{
+  /* background-color: #E6E6E6; */
+  padding-left: 10px;
+}
+
+
+
 /* section 9 */
 
 .section-9
@@ -913,8 +950,65 @@ padding: 20px !important;
   height: 369px;
   padding-left: 100px;
   text-decoration: none;
+  padding-bottom: 50px;
 }
 
 .pad-div-2 ul{
   list-style-type: none;
 }
+.pad-div-1 ul li{
+  margin-bottom: 15px;
+}
+
+.pad-div-2 ul li{
+  margin-bottom: 30px;
+}
+
+/* section 13 */
+
+.section-13
+{
+  width: 1519px;
+  height: 59px;
+  background-color: #001633;
+}
+/* .sec-13
+{
+  width: 1436px;
+  height: 38px;
+  padding-top: 30px;
+ 
+  text-align: center;
+    color: #ffffff;
+} */
+
+.main-6
+{
+  width: 1456px;
+  height: 58px;
+  margin-left: 31px;
+  margin-right: 31px;
+}
+.main-6-1
+{
+  width: 1436px;
+  height: 38px;
+  padding: 10px;
+  font-size: 14px;
+}
+.main-6-1 p
+{
+  padding-left: 60px;
+}
+
+.main-6-1 p a 
+{
+  color: #cc3366;
+  text-decoration: none;
+}
+.a_hover:hover
+{
+  color: #00204A;
+}
+
+
