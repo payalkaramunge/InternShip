@@ -1,12 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-  font-family: "poppins",sans-serif;
-}
-/* root:{
-
-
-} */
 /* social media header */
 .header1
 {
@@ -15,7 +7,7 @@
   padding-bottom: 1%;
 }
 
-.header1 .liheader1 
+.header1 .liheader1
 {
   display: flex;
   gap: 20px;
@@ -148,11 +140,12 @@ header
 
   /* section 2 */
 
+  
   .main-1
   {
     width: 100%;
     height: 288px;
-    background-color: #40356f;
+    background-color: #201a37;
     margin-top: 10px;
   }
   .submain-1
@@ -171,232 +164,58 @@ header
     text-align: center;
   }
 
-  /* section 3 */
+  /*section 3 cards */
 
-  .main-2
+  .main-14
   {
-    width: 100%;
-    height: 758px;;
-  }
-
-  .main-2-1
-  {
-    width: 100%;
-    height: 743px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-  .submain-2
-  {
-    width: 1140px;
-    height: 543px;
-    margin-left: 189px;
-    margin-right: 189px;
     display: flex;
-    gap: 72px;
+    margin: 20px;
+    gap: 35px;
+
   }
 
-  .submain-2-1
-  {
-    width: 456px;
-    height: 543px;
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* .card img{
+    height: 80%;
+  } */
+  .card:hover {
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
   }
 
-  .submain-2-2
-  {
-    width: 612px;
-    height: 543px;
-  }
-  .submain-2-2 img
-  {
-    width: 571px;
-    height: 381px;
-    margin-top: 162px;
-    margin-left: 20px;
-  }
-    .h-2
-    {
-    color: #00d0ff;
-    font-weight: 600;
-    padding-bottom: 20px;
-    }
-    .h-3
-    {
-    font-weight: 700;
-    font-size: 50px;
-    padding-bottom: 40px;
-    }
-
-    /* sextion 4 */
-
-    /* section 5 */
-    
-  .main-5
-  {
-    width: 100%;
-    height: 621px;;
-  }
-
-  .main-5-1
-  {
-    width: 100%;
-    height: 621px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-  .submain-5
-  {
-    width: 1140px;
-    height: 421px;
-    margin-left: 189px;
-    margin-right: 189px;
-    display: flex;
-    gap: 72px;
-  }
-
-  .submain-5-1
-  {
-    width: 611px;
-    height: 421px;
-  }
-
-  .submain-5-2
-  {
-    width: 456px;
-    height: 421px;
-  }
-  .submain-5-1 img
-  {
-    width: 571px;
-    height: 381px;
-    /* margin-top: 162px;
-    margin-left: 20px; */
-  }
-    .h-4
-    {
-    color: #00d0ff;
-    font-weight: 600;
-    padding-bottom: 20px;
-    }
-    .h-5
-    {
-    font-weight: 700;
-    font-size: 50px;
-    padding-bottom: 40px;
-    }
-
-    /* section-5-1 */
-
-    .section-5
-    {
-      width: 100px;
-      height: 192px;
-    }
-
-    .section-5-1
-    {
-      width: 1140px;
-      height: 192px;
-      margin-left: 189px;
-      margin-right: 189px;
-    }
-
-    /* section 6 */
-
-    .main-6
-    {
-        width: 100%;
-        /* height: 869px; */
-
-    }
-
-    .main-6-1
-    {
-        /* width: 1140px; */
-        height: 869px;
-        margin-left: 189px;
-        /* margin-right: 189px; */
-        display: flex;
-    }
-
-    .submain-6
-    {
-        width: 1140px;
-        height: 869px;
-    }
-    .submain-6-1
-    {
-        width: 1100px;
-        height: 300px;
-        margin-bottom: 60px;
-    }
-    .submain-6-2
-    {
-        width: 1100px;
-        height: 65px;
-        padding-left: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        border-left: 4.8px solid black;
-    }
-
-    .submain-6-1-1
-    {
-        
-        width: 1100px;
-        height: 65px;
-        border-left: 4.8px solid black;
-    }
-    .submain-6-2-1
-    {
-        
-        width: 1100px;
-        height: 65px;
-        padding-left: 20px;
-        padding-top: 20px;
-        padding-bottom: 20% !important;
-    }
-
-    .main-6-para
-    {
-        margin-top: 40px;
-    }
-    .main-6-para span
-    {
-        text-align: justify;
-    }
-    .submain-6-3
-    {
-      width: 1100px;
-      height: 65px;
-      border-left: 4.8px solid black;
-    }
-
-
-    
+  
 /* section 12 */
 
 .sec-12
 {
-  width: 100%;
+  width: 1519px;
   height: 569px;
   background-color: #00204A;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-top: 850px;
 }
 
-.main-4-9
+.main-4
 {
-  width: 100%;
+  width: 1519px;
   height: 369px;
  display: flex;
   background-color: #00204A;
 }
 
-.main-4-1-9
+.main-4-1
 {
   width: 1140px;
   height: 369px;
@@ -408,35 +227,35 @@ header
   margin-left: auto;
   position: relative;
 }
-.sub-main-1-9
+.sub-main-1
 {
   width: 300px;
   height: 369px;
   gap: 40px !important;
 }
 
-.pad-div-9
+.pad-div
 {
   width: 300px;
   height: 369px;
 }
 
 
-.sub-main-1-1-9 img
+.sub-main-1-1 img
 {
 width: 260px;
 height: 261px;
 padding: 20px !important;
 }
 
-.sub-main-1-2-9 img
+.sub-main-1-2 img
 {
   /* padding: 10px; */
   padding-left: 21px;
  
 }
 
-.pad-div-1-9
+.pad-div-1
 {
   width: 188px;
   height: 369px;
@@ -445,20 +264,20 @@ padding: 20px !important;
   padding-bottom: 7px !important;
 }
 
-.pad-div-1-9 ul{
+.pad-div-1 ul{
   list-style-type: none;
 }
-.pad-div-1-9 ul li a{
+.pad-div-1 ul li a{
   text-decoration: none !important;
   color: white;
 
 }
-.pad-div-1-9 ul li a span
+.pad-div-1 ul li a span
 {
   padding-bottom: 40px;
 }
 
-.pad-div-2-9
+.pad-div-2
 {
   width: 360px;
   height: 369px;
@@ -467,14 +286,14 @@ padding: 20px !important;
   padding-bottom: 50px;
 }
 
-.pad-div-2-9 ul{
+.pad-div-2 ul{
   list-style-type: none;
 }
-.pad-div-1-9 ul li{
+.pad-div-1 ul li{
   margin-bottom: 15px;
 }
 
-.pad-div-2-9 ul li{
+.pad-div-2 ul li{
   margin-bottom: 30px;
 }
 
@@ -482,7 +301,7 @@ padding: 20px !important;
 
 .section-13
 {
-  width: 100%;
+  width: 1519px;
   height: 59px;
   background-color: #001633;
 }
@@ -498,24 +317,24 @@ padding: 20px !important;
 
 .main-6
 {
-  width: 100%;
+  width: 1456px;
   height: 58px;
-  /* margin-left: 31px;
-  margin-right: 31px; */
+  margin-left: 31px;
+  margin-right: 31px;
 }
-.main-6-1-9
+.main-6-1
 {
-  width: 100%;
+  width: 1436px;
   height: 38px;
   padding: 10px;
   font-size: 14px;
 }
-.main-6-1-9 p
+.main-6-1 p
 {
   padding-left: 60px;
 }
 
-.main-6-1-9 p a 
+.main-6-1 p a 
 {
   color: #cc3366;
   text-decoration: none;
@@ -524,4 +343,3 @@ padding: 20px !important;
 {
   color: #00204A;
 }
-

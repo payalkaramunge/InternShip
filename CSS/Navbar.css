@@ -7,6 +7,7 @@
 
 
 } */
+
 /* social media header */
 .header1
 {
@@ -146,7 +147,7 @@ header
     color: #00d0ff;
   }
   
-/* card */
+card
 
 .service{
     flex-wrap: nowrap;
@@ -159,22 +160,8 @@ header
     box-shadow: 10px 10px 5px 0px rgba(199, 196, 196, 0.75);
     display: flex;
     flex-direction: row;
-/* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
-
   
   }
-/* 
-  .service .card .card-body
-  {
-    padding-left: 50px;
-  }
-
-.crd-img
-{
-    width: 100px !important;
-    padding-left: 20px !important;
-} */
 
 .card-title1
 {
@@ -188,14 +175,6 @@ header
   font-weight: 100px !important;
 }
 
-/* .service .card .card-title
-{
-    font-weight: 1000;
-    color: #00d0ff;
-} */
-
-/* section 3 pictures and para */
-
 .main
 {
   width: 100%;
@@ -208,7 +187,6 @@ header
 
 .main-container-1
 {
-  /* padding-left: 80px; */
   position: relative;
   width: 473px;
   height: 571px;
@@ -240,19 +218,6 @@ header
   padding: 20px;
   width: 578px;
   height: 704px;
-}
-
-.h-1
-{
-  color: #00d0ff;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-.h-2
-{
-  font-weight: 700;
-  font-size: 50px;
-  padding-bottom: 40px;
 }
 
 .btnn
