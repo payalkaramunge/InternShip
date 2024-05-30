@@ -143,11 +143,11 @@ header
 
   /* hover color chnage */
 
-  .nav-bar li:hover a{
+  /* .nav-bar li:hover a{
     color: #00d0ff;
-  }
+  } */
   
-card
+/* card */
 
 .service{
     flex-wrap: nowrap;

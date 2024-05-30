@@ -133,9 +133,9 @@ header
 
   /* hover color chnage */
 
-  .nav-bar li:hover a{
+  /* .nav-bar li:hover a{
     color: #00d0ff;
-  }
+  } */
 
    /* section 2 */
 
@@ -288,3 +288,154 @@ header
 {
   background-color: #14a2ca;
 }
+
+
+/* section 12 */
+
+.sec-12
+{
+  width: 1519px;
+  height: 569px;
+  background-color: #00204A;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main-4
+{
+  width: 1519px;
+  height: 369px;
+ display: flex;
+  background-color: #00204A;
+}
+
+.main-4-1
+{
+  width: 1140px;
+  height: 369px;
+  margin-left: 189px;
+  margin-right: 189px;
+  background-color: #00204A;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.sub-main-1
+{
+  width: 300px;
+  height: 369px;
+  gap: 40px !important;
+}
+
+.pad-div
+{
+  width: 300px;
+  height: 369px;
+}
+
+
+.sub-main-1-1 img
+{
+width: 260px;
+height: 261px;
+padding: 20px !important;
+}
+
+.sub-main-1-2 img
+{
+  /* padding: 10px; */
+  padding-left: 21px;
+ 
+}
+
+.pad-div-1
+{
+  width: 188px;
+  height: 369px;
+  padding-left: 47px;
+  text-decoration:none ;
+  padding-bottom: 7px !important;
+}
+
+.pad-div-1 ul{
+  list-style-type: none;
+}
+.pad-div-1 ul li a{
+  text-decoration: none !important;
+  color: white;
+
+}
+.pad-div-1 ul li a span
+{
+  padding-bottom: 40px;
+}
+
+.pad-div-2
+{
+  width: 360px;
+  height: 369px;
+  padding-left: 100px;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
+
+.pad-div-2 ul{
+  list-style-type: none;
+}
+.pad-div-1 ul li{
+  margin-bottom: 15px;
+}
+
+.pad-div-2 ul li{
+  margin-bottom: 30px;
+}
+
+/* section 13 */
+
+.section-13
+{
+  width: 1519px;
+  height: 59px;
+  background-color: #001633;
+}
+/* .sec-13
+{
+  width: 1436px;
+  height: 38px;
+  padding-top: 30px;
+ 
+  text-align: center;
+    color: #ffffff;
+} */
+
+.main-6
+{
+  width: 1456px;
+  height: 58px;
+  margin-left: 31px;
+  margin-right: 31px;
+}
+.main-6-1
+{
+  width: 1436px;
+  height: 38px;
+  padding: 10px;
+  font-size: 14px;
+}
+.main-6-1 p
+{
+  padding-left: 60px;
+}
+
+.main-6-1 p a 
+{
+  color: #cc3366;
+  text-decoration: none;
+}
+.a_hover:hover
+{
+  color: #00204A;
+}
+
+
